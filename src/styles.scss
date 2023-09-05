@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+// Existem outros arquivos CSS estão presentes no mesmo caminho /node-modules como indigo em seguida, para alterar a cor, basta adicioná-lo em estilo.css ou arquivo CSS do respectivo componente para o estilo ex.css    .mat-toolbar { background: #007bff; color: #fff; }
+
+// componente-amostra.html<mat-toolbar style="background:primary" > <span>My Application</span> </mat-toolbar>
