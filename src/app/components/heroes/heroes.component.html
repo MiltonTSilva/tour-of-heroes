@@ -1,0 +1,17 @@
+<h2>{{ hero.nome }} Detalhes</h2>
+<p>
+  <span>Id: {{ hero.id }}</span>
+</p>
+<p>
+  <span>Nome: {{ hero.nome }}</span>
+</p>
+
+<div>
+  <label for="nome">Nome do herói:</label>
+  <input
+    type="text"
+    id="nome"
+    [(ngModel)]="hero.nome"
+    placeholder="Nome do herói"
+  />
+</div>
